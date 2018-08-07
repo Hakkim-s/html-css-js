@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>string</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script >
+	var string1 = "Never give up attitude,"
+	var string2 = "Don't quit learning "
+	
+	//charAT
+    document.write(string1.charAt(6));
+    document.write("<br/>");
+    //charcodeAT
+    document.write(string1.charCodeAt(6));
+    document.write("<br/>");
+    //concat
+    document.write(string1.concat(string2));
+    document.write("<br/>");
+    //repeat
+    console.log(string1.repeat(5));
+    //indexof
+    console.log(string1.indexOf("up"));
+    //lastindexof
+    console.log(string1.lastIndexOf("up"));
+    //match
+    console.log(string1.match(/up/g));
+    //search
+    document.write(string2.search("quit"));
+    document.write("<br/>");
+    //slice
+    document.write(string1.slice(5,9));
+    document.write("<br/>");
+    //split
+    document.write(string2.split(" "));
+    document.write("<br/>");
+    //startswith
+    document.write(string2.startsWith("Don't"));
+    document.write("<br/>");
+    document.write(string2.startsWith("Dont"));
+    document.write("<br/>");
+    //substr
+    document.write(string2.substr(5,9));
+    document.write("<br/>");
+    //substring
+    document.write(string2.substring(5,9));
+    document.write("<br/>");
+    //lowercase
+    document.write(string2.toLowerCase());
+    document.write("<br/>");
+    //uppercase
+    document.write(string1.toUpperCase());
+    document.write("<br/>");
+    //trim
+    var string3 ="  stay strong   "
+    document.write(string3);
+    document.write("<br/>");
+    document.write(string3.trim());
+
+
+
+    //replace
+    document.write(replace(/up/g,"UP"));
+    //include
+    console.log(string2.include("quit"));
+    //fromcharcode
+    console.log(string1.fromCharCode(103));
+    //endswith
+    document.write(string1.endswith("attitude,"));
+   
+  
+ 
+
+    	
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
