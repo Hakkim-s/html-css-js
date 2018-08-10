@@ -1,0 +1,50 @@
+#header{
+    	color:white;
+    	background-color:black;
+    	border-bottom:solid 5px #B8860B;}
+    .glybor{
+    	padding:5px;
+    	font-size:15px;
+    	color:#B8860B;
+    	border:solid 1px #B8860B;
+    	border-radius:60px;
+    	margin-bottom:5px
+    }	
+     .glybor1{
+    	padding:5px;
+    	font-size:15px;
+    	color:#B8860B;
+    	border:solid 1px #B8860B;
+    	border-radius:60px;
+    	margin-bottom:5px;
+    	background-color:white;
+    	margin:5px
+    }	
+    .a:hover{
+    	color:black;
+    	border-color:black;
+        text-decoration-color:black;
+    }
+    .glybor2{
+    	color:#B8860B;
+    	border:solid 7px #B8860B;
+    	border-radius:50px;
+    	margin-bottom:5px;
+    	font-size:18px
+    }
+    .b:hover{
+    	
+    	border-radius:10px;
+    }
+    .nav1{
+    	border-left:solid 1px #fff;
+    } 
+    
+    .acl{
+        color:white;
+    }
+    .d:hover{
+        background-color:#B8860B;
+
+    }
+     
